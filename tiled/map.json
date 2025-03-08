@@ -74,7 +74,7 @@
         {
          "columns":18,
          "firstgid":1,
-         "image":"..\/Overworld_Tileset.png",
+         "image":".\/Overworld_Tileset.png",
          "imageheight":208,
          "imagewidth":288,
          "margin":0,
@@ -87,7 +87,7 @@
         {
          "columns":8,
          "firstgid":235,
-         "image":"..\/water_tile_anim_strip_8.png",
+         "image":".\/water_tile_anim_strip_8.png",
          "imageheight":16,
          "imagewidth":128,
          "margin":0,
