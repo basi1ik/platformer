@@ -4,8 +4,11 @@
 
 typedef struct
 {
-    void (*quit)(void);
+    void (*cleanup)(void);
     void (*handle_events)(SDL_Event*); 
     void (*update)(float);
     void (*render)(SDL_Renderer*);
 } Entity;
+
+extern Entity entities[MAX_ENTITIES];
+extern int entities_count;
